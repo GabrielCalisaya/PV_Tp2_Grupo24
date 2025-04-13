@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJERCICIO 15</title>
+    <script>
+    const retornarmes = numero => {
+        const meses = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"];
+        if (numero >=1 && numero<=12) {
+            return meses[numero - 1];
+        } else{
+            return "no es un mes valido";
+        }
+    };
+    console.log(retornarmes(1));
+    console.log(retornarmes(15));
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

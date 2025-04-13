@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJERCICIO 16</title>
+    <script>
+        const sumarRango = (inicio, fin) => {
+            if (inicio > fin) {
+                return "el numero inicial debe ser menor";
+            }
+            let suma = 0;
+            for (let i =inicio; i<= fin; i++) {
+                suma += i;
+            }
+            return suma;
+        };
+        console.log(sumarRango(1,5));
+        console.log(sumarRango(10, 7));
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
