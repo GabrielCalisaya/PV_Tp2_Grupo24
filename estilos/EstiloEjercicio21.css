@@ -1,0 +1,25 @@
+body{
+    font-family: Arial, sans-serif;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    font-weight: bold;
+    background-color: antiquewhite;
+}
+#textoIngresado{
+width: 25vh;
+font-size: 3vh;
+font-weight: bold;
+display: block; 
+margin: 0 auto;
+border-radius: 25vh;
+}
+#textoDiv{
+    width: 50vh;
+    display: block;
+    margin: 0 auto;
+    font-size: 5vh;
+}
