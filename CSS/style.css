@@ -1,0 +1,58 @@
+/*ejercico 20 css a mi estilo*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    background: linear-gradient(212deg, #ff7eb3, #ff758c, #390249,#ff6a65, #ff5e3a, #ffcc00); 
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    color: #961111;
+}
+
+.container {
+    background: linear-gradient(145deg, #1e3c72, #2a8b98); 
+    padding: 30px;
+    border-radius: 15px; 
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3); 
+    text-align: center;
+    width: 90%;
+    max-width: 700px; 
+    overflow: auto;
+}
+
+.label-pais, .label-capital {
+    font-weight: bold;
+    color: #ffeb3b;
+    margin-left: 0;
+    font-style: italic;
+    text-shadow: 1px 1px 2px #000;
+}
+
+h1 {
+    color: #e4e4e4; 
+    font-weight: 700; 
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px #000;
+}
+
+label {
+    font-weight: 400;
+    display: block;
+    margin-top: 15px;
+    color: #ffffff;
+}
+
+select {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border: 3px solid #000000;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif; 
+    background-color: #9fece6;
+    color: #000000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
