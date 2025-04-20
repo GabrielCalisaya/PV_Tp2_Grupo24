@@ -1,20 +1,7 @@
-let btn1 = document.getElementById("btn1");
-let btn2 = document.getElementById("btn2");
-let btn3 = document.getElementById("btn3");
+import { configurarBoton } from "./funcionesEjercicio23.js";
 
-let cajaTexto = document.getElementById("texto")
+const cajaTexto = document.getElementById("texto")
 
-btn1.addEventListener("click", () => {
-    cajaTexto.textContent = "JavaScript"
-    console.log("Ud seleccionó: JavaScript")
-})
-
-btn2.addEventListener("click", () => {
-    cajaTexto.textContent = "Python"
-    console.log("Ud seleccionó: Python");
-})
-
-btn3.addEventListener("click", () => {
-    cajaTexto.textContent = "C++"
-    console.log("Ud seleccionó: C++");
-})
+configurarBoton("btn1", "JavaScript", "\nUd seleccionó: JavaScript", cajaTexto);
+configurarBoton("btn2", "Python", "\nUd seleccionó: Python", cajaTexto);
+configurarBoton("btn3", "C++", "\nUd seleccionó: C++", cajaTexto);
